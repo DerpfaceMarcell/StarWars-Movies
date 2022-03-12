@@ -1,0 +1,20 @@
+.films {
+    overflow-x: hidden;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+
+    &__box-left {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        width: 40%;
+    }
+
+    &__box-Right {
+        margin: 10px 0;
+        width: 60%;
+        overflow-y: scroll;
+    }
+}

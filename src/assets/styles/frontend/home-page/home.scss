@@ -1,0 +1,13 @@
+.home-page {
+    padding: 30px;
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__box {
+        margin: 10px 0;
+        width: 100%;
+    }
+}
